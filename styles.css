@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(231, 231, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100% ; 
+}
+
+
+.mitte {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Schule {
+  height: 500px;
+  margin: 5;
+  padding: 1;
+}
+
+div {
+    background: black;
+}
+
+
+a {
+    color: #2d7262;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#Schule img {
+    width: 24.825%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 800px) {
+    #teaser {
+        height: 600px;
+    }
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+}
+
+
+footer ul, nav ul {
+    list-style-type: none;
+
+}
+
+footer ul li a, nav ul li a {
+    padding: 12px;
+    font-weight: 600;
+}
+
+section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2;
+
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 50;
+}
+
+text {
+    line-height: 0.5;
+}
+
+zeit {
+    line-height: 1.6;
+}
+
+.footer {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0; 
+    margin-top: 217px;
+
+}
+
+.lira {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0; 
+    margin-top: 480px;
+
+}
+
+.penis {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0; 
+    margin-top: 505px;
+
+}
+
+line {
+    text-decoration: underline;
+}
